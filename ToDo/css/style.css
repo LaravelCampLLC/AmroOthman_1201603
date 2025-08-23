@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.input-section {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#addButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#addButton:hover {
+  background-color: #0056b3;
+}
+
+#taskList {
+  list-style: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+button {
+  cursor: pointer;
+}
+
+li button {
+  margin-left: 10px;
+  padding: 4px 8px;
+  border: none;
+  background-color: #ff4d4d;
+  color: white;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+li button:hover {
+  background-color: #e60000;
+}
+
+/* Checkbox spacing */
+li input[type="checkbox"] {
+  margin-right: 8px;
+}

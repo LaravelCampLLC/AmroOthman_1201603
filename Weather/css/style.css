@@ -1,0 +1,28 @@
+body {
+  font-family: system-ui, Arial, sans-serif;
+  margin: 24px;
+  max-width: 420px;
+}
+h1 {
+  font-size: 1.25rem;
+  margin: 0 0 12px;
+}
+form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+input {
+  flex: 1;
+  padding: 8px;
+}
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+#result {
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 6px;
+  min-height: 48px;
+}

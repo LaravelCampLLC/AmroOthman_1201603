@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Task Manager — Minimal</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <main class="app" aria-labelledby="title">
+    <h1 id="title">Task Manager</h1>
+
+    <form id="addForm" autocomplete="off">
+      <label class="sr-only" for="taskInput">Task title</label>
+      <input id="taskInput" type="text" placeholder="Add here.. " maxlength="120" />
+      <button id="addBtn" type="submit">Add</button>
+    </form>
+
+    <ul id="taskList" aria-live="polite"></ul>
+
+    <div class="footer">
+      <span id="count">0 tasks</span>
+      <button id="clearBtn" class="delete" title="Remove all completed">Clear completed</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
